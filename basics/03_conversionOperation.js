@@ -32,3 +32,21 @@ let someNumber = 33;
 let newStr = String(someNumber);
 console.log(newStr); //33
 console.log(typeof(newStr)); //string
+
+//-------------Operations-----------------
+
+let value = 3;
+let negValue = -value;
+console.log(negValue);
+
+let str1 = "hello";
+let str2 = " prabesh";
+let str3 = str1 + str2;
+console.log(str3);
+
+
+console.log("1"+2);
+console.log(1+"2");
+console.log("1"+"2");
+console.log("1"+2+1); //not a good idea
+console.log(1+2+"3"); //not a good idea, use bracket () for what operation to be done first
