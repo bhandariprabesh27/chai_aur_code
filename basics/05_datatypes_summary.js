@@ -19,3 +19,15 @@ console.log(valueCheck === newValueCheck); // same value in symbol are not equal
 
 const bigNumber = 22342213004844778n;
 console.log(typeof(bigNumber));
+
+const myObj = {
+    name: "Ram",
+    grade: 6,
+    age: 9
+}
+
+const heroes = ["shaktiman", "batman", "superman"];
+
+const myFunc = function(){
+    console.log("Hello, I am printed");
+}
