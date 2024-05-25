@@ -15,8 +15,9 @@ console.log(gameName.toUpperCase());
 console.log(gameName.charAt(8));
 console.log(gameName.indexOf("a"));
 
-const newString = gameName.substring(0,4); //doesnt take neg values
+const newString = gameName.substring(0,4); //(start:end) //doesnt take neg values
 console.log(newString);
+console.log(gameName.substring(1,2));
 
 const anotherString = gameName.slice(-12,7); //can take neg values
 console.log(anotherString);
